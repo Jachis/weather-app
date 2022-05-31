@@ -20,8 +20,6 @@ function App() {
     };
     
     navigator.geolocation.getCurrentPosition(success, error);
-  
-    console.log(weather)
   }, []);
 
   return (
